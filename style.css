@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+	--color-black: #1B1E1F;
+	--color-blue-clear: #11E4BC;
+	--color-white: #fff;
+}
+
+*,
+html,
+#root {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow: none;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+
+	font-weight: 300;
+
+	background-color: #f1f1f1;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: row;
+
+	position: relative;
+}
+
+.container article .content {
+	height: 100vh;
+	background-color: black;
+
+	width: 350px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container article .content .avatar {
+	margin-top: 30px;
+}
+
+.container article .content .avatar {
+	border-radius: 100%;
+	padding: 5px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container article .content .avatar img {
+	width: 150px;
+	height: 150px;
+
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+.container article .content .description {
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+
+
+.container article .content .description h1{
+	font-size: 1.5rem;
+}
+
+.container article .content .description span{
+	font-size: 1rem;
+}
+
+.container article .content .menu {
+	margin-top: 30px;
+}
+
+.container article .content .menu ul {
+	list-style: none;
+}
+
+.container article .content .menu ul li {
+	margin-top: 10px;
+
+	width: 250px;
+	padding: 15px;
+
+	text-align: center;
+
+	border-radius: 100px;
+	border: 1px solid gray;
+}
+
+.container article .content .menu ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+.container .render {
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-items: flex-start;
+
+	margin: auto 10%;
+	position: relative;
+}
+
+.container .render .sociais {
+	margin-bottom: 100px;
+}
+
+.container .render .sociais ul {
+	display: flex;
+	padding-top: 20px;
+}
+
+.container .render .sociais ul li {
+	width: 50px;
+	height: 50px;
+
+	margin-right: 10px;
+	border: 1px solid #333;
+	border-radius: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .render .sociais ul li i {
+	font-size: 1.5rem;
+	color: #333;
+}
+
+
