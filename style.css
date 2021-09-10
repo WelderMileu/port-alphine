@@ -101,8 +101,8 @@ body {
 }
 
 .container article .content .menu ul .active{
-	border-left: 5px solid #fff;
-	border-right: 5px solid #fff;
+	border-left: 3px solid #fff;
+	border-right: 3px solid #fff;
 }
 
 .container article .content .menu ul li a {
@@ -144,6 +144,55 @@ body {
 .container .render .sociais ul li i {
 	font-size: 1.5rem;
 	color: #333;
+}
+
+.container .render .portifolio {
+	display: flex;
+	flex-direction: row;
+
+	width: 700px;
+	overflow-x: scroll;
+	position: relative;
+}
+
+.container .render .portifolio .card {
+	margin: 15px;
+	position: relative;
+}
+
+.container .render .portifolio .card .actions {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+
+	display: flex;
+
+}
+
+.container .render .portifolio .card .actions .button {
+	width: 40px;
+	height: 40px;
+
+	background-color: black;
+	margin: 2px;
+	border-radius: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .render .portifolio .card .actions .button i {
+	font-size: 1.5rem;
+	color: white;
+}
+
+.container .render .portifolio .card img {
+	width: 250px;
+	height: 250px;
+
+	object-fit: cover;
+	border-radius: 20px;
 }
 
 
