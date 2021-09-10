@@ -119,6 +119,26 @@ body {
 	position: relative;
 }
 
+.container .render .abaut h3 {
+	font-size: 1.5rem;
+}
+
+.container .render .abaut button {
+	margin-top: 30px;
+	padding: 15px 30px;
+
+	border: none;
+	border-radius: 100px;
+	font-size: 1.2rem;
+	background-color: black;
+
+	color: white;
+}
+
+.container .render .abaut button i {
+	padding-right: 5px;
+}
+
 .container .render .sociais {
 	margin-bottom: 100px;
 }
@@ -146,7 +166,12 @@ body {
 	color: #333;
 }
 
-.container .render .portifolio {
+.container .render .portifolio .title{
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+.container .render .portifolio .content {
 	display: flex;
 	flex-direction: row;
 
@@ -193,6 +218,11 @@ body {
 
 	object-fit: cover;
 	border-radius: 20px;
+}
+
+.container .render .skills h3 {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
 }
 
 
